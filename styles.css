@@ -1,0 +1,294 @@
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand h1 {
+    font-size: 28px;
+    margin: 0;
+    padding: 20px; 
+    background: linear-gradient(90deg,#5de0e6,#004aad);
+    -webkit-background-clip: text;   
+    -webkit-text-fill-color: transparent;
+    background-clip: text;           
+    color: transparent;
+    position: relative;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+#space {
+    margin-left: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+  background: #00273d;
+  height: 100px;
+}
+
+.nav a {
+  padding: 40px 14px;
+  border-radius: 10px;
+  color: #9ab3c5;
+  text-decoration: none;
+  transition: 0.3s;
+  color: whitesmoke;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: #004aad;
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.logo {
+    height: 100px;
+    float: left;
+    margin:0 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(140deg,#0b1b29, #0f2438);
+  color:  #e8faff;
+  padding-top: 100px;
+}
+
+.hero {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 380px;
+  margin: auto auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero h2 {
+  color: #41f0ff;
+  text-align: left;
+  flex: 1;
+}
+
+.hero p {
+  width: 90%;
+  text-align: left;
+  color: #9ab3c5;
+  flex: 1;
+}
+
+#Molecule_photo{
+  width: 400px;
+  height: 200px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.btn-primary  {
+  background-color:#41f0ff;
+  padding: 30 35px;
+  font-size: medium;
+  font-family: sans-serif;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.btn-primary a {
+  text-decoration: none;
+  color: #0f2438;
+}
+
+.btn-ghost:hover {
+  background-color: red;
+}
+
+.btn-ghost a {
+  text-decoration: none;
+}
+
+#title {
+  color: #ffffff;
+}
+
+main {
+  font-size: large;
+}
+
+.photo {
+  width: 600px;
+  height: 400px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.photo img {
+  border-radius: 10px;
+}
+
+.content {
+  width: fit-content;
+  max-width: 1200px;
+  min-height: 100px;
+  display: flex;
+  margin: auto auto;
+  padding: 20px;
+  flex: 1;
+  justify-content: space-between;
+  gap: 40px;
+}
+.heading {
+  text-align: center;
+  color: #41f0ff;
+}
+
+.content h2,.contact h2{
+  flex: 1;
+}
+
+.content p,li,.contact p {
+  width: 90%;
+  color: #9ab3c5;
+}
+
+#tagline {
+  text-align: center;
+  color: #9ab3c5;
+}
+
+#para {
+  flex: 1;
+}
+
+.box {
+  border: 5px solid;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.box p {
+  font-size:medium;
+  height:fit-content;
+  width:fit-content;
+  font-size: 20px;
+}
+
+.box h4 {
+  text-align: left;
+}
+
+#contact {
+  text-align: left;
+}
+#box1 {
+  border-color:#004aad ;
+}
+
+#box2 {
+  border-color: #4b97fb;
+}
+
+.form {
+  border: 5px solid #5de0e6;
+  border-radius: 10px;
+  height:650px;
+}
+
+#block {
+  size: 50px;
+}
+
+input {
+  border-radius: 10px;
+}
+
+#submit {
+  background-color: #004aad;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#submit a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.form label {
+  font-size:medium ;
+}
+
+.side {
+  width: 50%;
+  font-size: medium;
+}
+
+.foot {
+  text-align: center;
+}
+
+#products {
+  gap: 10px;
+  display: flex;
+  flex: 1;
+  padding: 5px;
+  width: auto;
+}
+
+#product {
+  width: 50%;
+  height: auto;
+  text-align: left;
+}
+
+#product h2 {
+  text-align: center;
+}
+
+#products div:hover {
+  border: 5px groove cyan;
+  border-radius: 10px;
+}
+
+.button {
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom:  30px; ;
+}
+
+.service {
+  text-align: center;
+  width: 100%;
+}
+
+.contact {
+  width: fit-content;
+  max-width: 1200px;
+  min-height: 100px;
+  margin: auto auto;
+}
+
+.Difference {
+  margin: 0 50%;
+}
